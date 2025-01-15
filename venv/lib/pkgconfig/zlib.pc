@@ -1,0 +1,13 @@
+prefix=/Users/apple/Downloads/Agentic_sqldatabase_rag/venv
+exec_prefix=/Users/apple/Downloads/Agentic_sqldatabase_rag/venv
+libdir=/Users/apple/Downloads/Agentic_sqldatabase_rag/venv/lib
+sharedlibdir=/Users/apple/Downloads/Agentic_sqldatabase_rag/venv/lib
+includedir=/Users/apple/Downloads/Agentic_sqldatabase_rag/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
